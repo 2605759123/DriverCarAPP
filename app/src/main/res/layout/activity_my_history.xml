@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rela_id_popup2"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="?attr/colorPrimary">
+
+        <Button
+            android:id="@+id/person2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_person_outline_black_24dp"/>
+        <TextView
+            android:id="@+id/makedatatext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="收取中..."
+            android:textColor="#fff"
+            android:textSize="22sp"/>
+        <!--
+        <Button
+            android:id="@+id/img_viewhistroy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_history_black_24dp" />
+            -->
+        <Button
+            android:id="@+id/tosetting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_settings_black_24dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/myhistory_shuaxin"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_shuaxin"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:layout_alignParentBottom="true"/>
+        <LinearLayout
+            android:id="@+id/tu"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.mcz.temperarure_humidity_appproject.Myview.HealthView
+                android:id="@+id/qq2HealthView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <com.mcz.temperarure_humidity_appproject.Myview.HealthView
+                android:id="@+id/qq2HealthView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <com.mcz.temperarure_humidity_appproject.Myview.HealthView
+                android:id="@+id/qq2HealthView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true">
+            <com.mcz.temperarure_humidity_appproject.Myview.SwitcherView
+                android:id="@+id/switcherView"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                app:switcherRollingTime="3000"
+                app:switcherTextColor="#3F51B5"
+                app:switcherTextSize="14sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

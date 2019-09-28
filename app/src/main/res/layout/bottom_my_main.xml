@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:gravity="bottom">
+
+
+    <com.mcz.temperarure_humidity_appproject.Mydialog.MaxHeightScrollView
+        android:id="@+id/sl_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:id="@+id/pop_dialog_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+        </LinearLayout>
+    </com.mcz.temperarure_humidity_appproject.Mydialog.MaxHeightScrollView>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sl_root"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_rect_white"
+        android:gravity="center"
+        android:minHeight="55dp"
+        android:padding="10dp"
+        android:text="↑请选择您账号下绑定的设备"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

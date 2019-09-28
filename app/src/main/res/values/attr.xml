@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullToRefresh">
+        <attr name="ptrRefreshableViewBackground" format="reference|color"/>
+        <attr name="ptrOverScroll" format="reference|boolean"/>
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean"/>
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitcherView">
+        <attr name="switcherTextColor" format="reference|color"/>
+        <attr name="switcherTextSize" format="dimension"/>
+        <attr name="switcherRollingTime" format="integer"/>
+    </declare-styleable>
+
+
+</resources>
